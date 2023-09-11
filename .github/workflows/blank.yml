@@ -37,11 +37,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-        name: print hello statement
+      - name: print hello statement
         run: echo ${Hello from Github Actions
                    This is a multi-line script}
-        name: print linux info
-        run: cat /etc/lsb_release
+      - name: print linux info
+        run: cat /etc/lsb-release
         
                    
      
